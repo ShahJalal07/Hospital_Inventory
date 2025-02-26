@@ -6,6 +6,7 @@ const Doctors = () => {
   const { speciality } = useParams();
   
   const doctors = useSelector((state) => state.doctor.doctors);
+  
   const [filterDoc, setFilterDoc] = useState([]);
   const navigate = useNavigate();
 
